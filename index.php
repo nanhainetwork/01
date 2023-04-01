@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
 <?php
-$question = "";
+$question = "你好";
 if (isset($_POST['question'])) {
 	$question = $_POST['question'];
 	$answer = chatgpt($question);
